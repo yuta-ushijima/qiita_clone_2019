@@ -7,8 +7,8 @@ ruby "2.6.1"
 
 gem "mysql2", ">= 0.4.4", "< 0.6.0"
 gem "puma", "~> 3.11"
-gem "rails", "~> 5.2.3"
-gem "sass-rails", "~> 5.0"
+gem "rails", "~> 7.0.0"
+gem "sass-rails", "~> 6.0", ">= 6.0.0"
 gem "uglifier", ">= 1.3.0"
 gem "webpacker"
 
