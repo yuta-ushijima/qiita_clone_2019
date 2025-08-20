@@ -7,7 +7,7 @@ ruby "2.6.1"
 
 gem "mysql2", ">= 0.4.4", "< 0.6.0"
 gem "puma", "~> 3.11"
-gem "rails", "~> 5.2.3"
+gem "rails", "~> 7.1.5", ">= 7.1.5.2"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
 gem "webpacker"
@@ -31,7 +31,7 @@ group :development, :test do
 end
 
 group :development do
-  gem "annotate"
+  gem "annotate", ">= 3.2.0"
   gem "capistrano", "~> 3.10", require: false
   gem "capistrano-bundler", "~> 1.5"
   gem "capistrano-database-yml", "~> 1.0.0"
@@ -39,7 +39,7 @@ group :development do
   gem "capistrano-rbenv", "~> 2.1"
   gem "capistrano3-unicorn"
   gem "listen", ">= 3.0.5", "< 3.2"
-  gem "rails-erd"
+  gem "rails-erd", ">= 1.6.0"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "web-console", ">= 3.3.0"
